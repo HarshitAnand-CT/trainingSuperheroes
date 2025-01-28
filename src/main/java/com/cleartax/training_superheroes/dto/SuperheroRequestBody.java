@@ -8,7 +8,7 @@ public class SuperheroRequestBody {
     private String power;
     private String universe;
 
-    SuperheroRequestBody(String superheroName, String power, String universe) {
+    public SuperheroRequestBody(String superheroName, String power, String universe) {
         this.superheroName = superheroName;
         this.power = power;
         this.universe = universe;
